@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation_Suite" duration-ms="69482" started-at="2021-11-24T06:02:01Z" finished-at="2021-11-24T06:03:11Z">
+    <groups>
+    </groups>
+    <test name="FaceBookTesting" duration-ms="69482" started-at="2021-11-24T06:02:01Z" finished-at="2021-11-24T06:03:11Z">
+      <class name="com.invygo.Facebook.FacebookTest">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.invygo.Facebook.FacebookTest@63f9b562]" name="beforeTestMethod" is-config="true" duration-ms="216" started-at="2021-11-24T06:02:01Z" finished-at="2021-11-24T06:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethodMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.invygo.Facebook.FacebookTest@63f9b562]" name="beforeMethodMethod" is-config="true" duration-ms="26482" started-at="2021-11-24T06:02:01Z" finished-at="2021-11-24T06:02:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.invygo.Facebook.FacebookTest.facebooklogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method status="PASS" signature="facebooklogin()[pri:0, instance:com.invygo.Facebook.FacebookTest@63f9b562]" name="facebooklogin" duration-ms="35908" started-at="2021-11-24T06:02:28Z" finished-at="2021-11-24T06:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooklogin -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.invygo.Facebook.FacebookTest@63f9b562]" name="afterMethodMethod" is-config="true" duration-ms="176" started-at="2021-11-24T06:03:04Z" finished-at="2021-11-24T06:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=facebooklogin status=SUCCESS method=FacebookTest.facebooklogin()[pri:0, instance:com.invygo.Facebook.FacebookTest@63f9b562] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.invygo.Facebook.FacebookTest@63f9b562]" name="afterTestMethod" is-config="true" duration-ms="6466" started-at="2021-11-24T06:03:04Z" finished-at="2021-11-24T06:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.invygo.Facebook.FacebookTest -->
+    </test> <!-- FaceBookTesting -->
+  </suite> <!-- Automation_Suite -->
+</testng-results>
