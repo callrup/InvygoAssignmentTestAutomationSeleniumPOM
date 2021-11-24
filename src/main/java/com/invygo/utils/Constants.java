@@ -4,7 +4,7 @@ public interface Constants {
 
 	String url = "https://www.facebook.com";
 			
-	String username = "callrupam@gmail.com";
+	String username = "";
 	
-	String password = "rupam1983";
+	String password = "";
 }
